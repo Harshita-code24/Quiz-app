@@ -3,18 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Quiz App</title>
+  <title>Bollywood Blitz Quiz</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="quiz-box">
-    <h1>My Quiz App</h1>
-    <p id="timer">Time left: 10</p>
-    <p id="score">Score: 0</p>
-    <h2 id="question">Question will appear here</h2>
-    <div id="answers"></div>
-    <button id="restartBtn" style="display: none;">Restart Quiz</button>
-  </div>
+  <main class="app">
+    <section class="quiz-box">
+      <p class="tag">Bollywood Blitz</p>
+      <h1>How filmy are you?</h1>
+      <div class="top-row">
+        <p id="progress">Question 1 of 8</p>
+        <p id="timer">10s</p>
+      </div>
+
+      <p id="score">Score: 0</p>
+      <h2 id="question">Question will appear here</h2>
+      <div id="answers"></div>
+      <p id="message"></p>
+      <button id="restartBtn" style="display: none;">Play Again</button>
+    </section>
+  </main>
 
   <script src="script.js"></script>
 </body>
